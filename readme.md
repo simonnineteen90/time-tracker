@@ -10,3 +10,5 @@ Follow command prompts to enter date, start/end time and lunch break
 
 Change the fullDayMinutes variable to the minimum contracted hours, default is 444 minutes / 7 hours 24 minutes.
 
+
+
