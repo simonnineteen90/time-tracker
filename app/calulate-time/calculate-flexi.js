@@ -4,9 +4,9 @@ const calculateFlexi = (totalMinutes) => {
   const minutes = Math.floor(totalMinutes - fullDayMinutes)
   let message
   if (fullDayMinutes <= totalMinutes) {
-    message = `You earned ${minutes} minutes of flexi today! Thats ${minutes / 60 } hours!`
+    message = `You earned ${minutes} minutes of flexi! Thats ${minutes / 60 } hours!`
   } else {
-    message = `You used ${minutes} minutes of flexi today. Thats ${minutes / 60 } hours.`
+    message = `You used ${minutes} minutes of flexi. Thats ${minutes / 60 } hours.`
   }
 
   return {
